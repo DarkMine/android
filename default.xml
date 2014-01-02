@@ -473,7 +473,7 @@
 
   <!--Ariesve ROM ION-->
   <project path="device/samsung/ariesve" name="alviteri/device_ariesve" remote="private" revision="cmfox_ion" />
-  <project path="kernel/samsung/msm7x30" name="alviteri/samsung-kernel-msm7x30_ion" remote="private" revision="2.5.5" />
+  <project path="kernel/samsung/msm7x30" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="private" revision="cm-10.2_ion_pmem_adsp" />
   <project path="vendor/samsung/ariesve" name="alviteri/vendor_ariesve" remote="private" revision="cm-11.0_ion" />
   <project path="hardware/qcom/display-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" remote="private" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-legacy" remote="private" revision="cm-11.0" />
