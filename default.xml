@@ -472,7 +472,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
   <!--Ariesve ROM ION-->
-  <project path="device/samsung/ariesve" name="alviteri/device_ariesve" remote="private" revision="cmfox_ion" />
+  <project path="device/samsung/ariesve" name="alviteri/device_ariesve" remote="private" revision="kitkat" />
   <project path="kernel/samsung/msm7x30" name="Christopher83/samsung-kernel-msm7x30" remote="private" revision="cm-11.0_ion_pmem_adsp" />
   <project path="vendor/samsung/ariesve" name="alviteri/vendor_ariesve" remote="private" revision="cm-11.0_ion" />
   <project path="hardware/qcom/display-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" remote="private" revision="cm-11.0" />
