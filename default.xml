@@ -476,5 +476,7 @@
   <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/vendor_ariesve" remote="private" revision="kitkat" />
   <project path="hardware/qcom/display-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" remote="private" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" remote="private" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />
+  <!--<project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />-->
+  <project path="hardware/qcom/audio-caf" name="arco/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0_testing" />
+  
 </manifest>
