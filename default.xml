@@ -479,8 +479,8 @@
   <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/vendor_ariesve" remote="private" revision="kitkat" />
 
   <!--Ancora ROM ION-->
-  <project name="arco/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="gh" revision="cm-11.0_ion"/>
-  <project name="madridii/android_device_samsung_ancora" path="device/samsung/ancora" remote="gh" revision="cm-11.0_ion" />
-  <project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="gh" revision="cm-11.0_ion" />
+  <project name="arco/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-11.0_ion"/>
+  <project name="madridii/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-11.0_ion" />
+  <project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-11.0_ion" />
   
 </manifest>
