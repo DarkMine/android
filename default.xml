@@ -18,6 +18,8 @@
            sync-j="4" />
 
   <!--<project path="build" name="CyanogenMod/android_build" groups="pdk" >-->
+  <!-- DarkCyanogenMod repo -->
+  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="cm-11.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -480,7 +482,6 @@
   <project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />
   
   <!-- DarkCyanogenMod repo -->
-  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="cm-11.0" groups="pdk" >
   <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="cm-11.0" />
   <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="cm-11.0" />
   <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="cm-11.0" />
