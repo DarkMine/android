@@ -19,7 +19,7 @@
 
   <!--<project path="build" name="CyanogenMod/android_build" groups="pdk" >-->
   <!-- DarkCyanogenMod repo -->
-  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="cm-11.0" groups="pdk" >
+  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -485,7 +485,7 @@
   <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="cm-11.0" />
   <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="cm-11.0" />
   <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="cm-11.0" />
-  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Contacts" name="DarkCyanogenMod/android_packages_apps_Contacts" remote="private" revision="cm-11.0" />
   <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="cm-11.0" />
@@ -493,8 +493,8 @@
   <project path="packages/apps/Mms" name="DarkCyanogenMod/android_packages_apps_Mms" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="DarkCyanogenMod/android_packages_apps_Settings" remote="private" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="cm-11.0" />
-  <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="cm-11.0" groups="pdk" />
-  <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="cm-11.0" groups="pdk" />
+  <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="cm-11.0" />
+  <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="cm-11.0" />
   
   <!-- PAC-man repo -->
   <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" remote="private" revision="pac-4.4" />
