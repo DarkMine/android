@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="https://android.googlesource.com" 
+           review="android-review.googlesource.com" />
 
   <remote  name="github"
            fetch=".."
@@ -14,7 +15,6 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-f="true"
            sync-j="4" />
 
   <!--<project path="build" name="CyanogenMod/android_build" groups="pdk" >-->
