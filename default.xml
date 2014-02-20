@@ -382,7 +382,7 @@
   <project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-11.0_ion" />
   
   <!-- AOSP repo -->
-  <project path="art" name="platform/art" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="art" name="platform/art" remote="aosp" revision="refs/tags/master" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
