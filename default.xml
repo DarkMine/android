@@ -346,7 +346,7 @@
   
   <!-- DarkCyanogenMod repo -->
   <project path="android" name="DarkCyanogenMod/android" />
-  <project path="art" name="android_art" remote="private" revision="cm-11.0" />
+  <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="cm-11.0" />
   <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="cm-11.0" />
   <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="cm-11.0" />
   <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="cm-11.0" />
