@@ -23,7 +23,6 @@
   </project>
 
   <!-- CM repo -->
-  <project path="android" name="DarkCyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
@@ -346,6 +345,7 @@
   <project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />
   
   <!-- DarkCyanogenMod repo -->
+  <project path="android" name="DarkCyanogenMod/android" />
   <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="cm-11.0" />
   <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="cm-11.0" />
   <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="cm-11.0" />
@@ -382,7 +382,7 @@
   <project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-11.0_ion" />
   
   <!-- AOSP repo -->
-  <project patch="art" name="platform/art" remote="aosp" revision="refs/tags/android-4.4.2_r2"
+  <project patch="art" name="platform/art" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
