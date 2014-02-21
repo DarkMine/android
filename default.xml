@@ -333,7 +333,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -359,6 +358,7 @@
   <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="cm-11.0" />
   <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="cm-11.0" />
   <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="cm-11.0" />
+  <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="cm-11.0" />
   
   <!-- PAC-man repo -->
   <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" remote="private" revision="pac-4.4" />
