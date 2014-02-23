@@ -276,7 +276,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
+  <project path="packages/apps/Browser" name="alviteri/android_packages_apps_Browser" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
@@ -347,14 +347,14 @@
   <project path="android" name="DarkCyanogenMod/android" />
   <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="cm-11.0" />
   <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="cm-11.0" />
-  <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="cm-11.0" />
+  <project path="frameworks/base" name="alviteri/android_frameworks_base" remote="private" revision="cm-11.0" />
   <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Contacts" name="DarkCyanogenMod/android_packages_apps_Contacts" remote="private" revision="cm-11.0" />
   <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="cm-11.0" />
   <project path="packages/apps/InCallUI" name="DarkCyanogenMod/android_packages_apps_InCallUI" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="DarkCyanogenMod/android_packages_apps_Mms" remote="private" revision="cm-11.0" />
-  <project path="packages/apps/Settings" name="DarkCyanogenMod/android_packages_apps_Settings" remote="private" revision="cm-11.0" />
+  <project path="packages/apps/Settings" name="alviteri/android_packages_apps_Settings" remote="private" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="cm-11.0" />
   <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="cm-11.0" />
   <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="cm-11.0" />
