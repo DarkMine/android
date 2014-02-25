@@ -271,12 +271,10 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
@@ -341,7 +339,7 @@
   <!--Caf-Hardware Update for msm7x30 and CM devices -->
   <project path="hardware/qcom/display-caf" name="DarkCyanogenMod/android_hardware_qcom_display-caf" remote="private" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" remote="private" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="DarkCyanogenMod/android_hardware_qcom_audio-caf" remote="private" revision="cm-11.0" />
   
   <!-- DarkCyanogenMod repo -->
   <project path="android" name="DarkCyanogenMod/android" />
@@ -437,6 +435,8 @@
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
