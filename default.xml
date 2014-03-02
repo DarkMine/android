@@ -372,7 +372,7 @@
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="private" revision="kitkat" />
 
   <!--Ariesve ROM ION-->
-  <project path="device/samsung/ariesve" name="DarkCyanogenMod/device_ariesve" remote="private" revision="kitkat" />
+  <project path="device/samsung/ariesve" name="DarkCyanogenMod/device_ariesve" remote="private" revision="cm-11.0" />
   <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung-kernel-msm7x30" remote="private" revision="cm-11.0" />
   <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/vendor_ariesve" remote="private" revision="kitkat" />
 
