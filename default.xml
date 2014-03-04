@@ -353,9 +353,9 @@
   <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="cm-11.0" />
   <project path="packages/apps/InCallUI" name="DarkCyanogenMod/android_packages_apps_InCallUI" remote="private" revision="cm-11.0" />
-  <project path="packages/apps/Mms" name="DarkCyanogenMod/android_packages_apps_Mms" remote="private" revision="cm-11.0" />
+  <project path="packages/apps/Mms" name="alviteri/android_packages_apps_Mms" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="DarkCyanogenMod/android_packages_apps_Settings" remote="private" revision="cm-11.0" />
-  <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="cm-11.0" />
+  <project path="packages/services/Telephony" name="alviteri/android_packages_services_Telephony" remote="private" revision="cm-11.0" />
   <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="cm-11.0" />
   <project path="system/vold" name="DarkCyanogenMod/android_system_vold" remote="private" revision="cm-11.0" />
   <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="cm-11.0" />
