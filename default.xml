@@ -483,7 +483,7 @@
   <!--Devices repo-->
   <project path="device/samsung/ariesve" name="DarkCyanogenMod/device_ariesve" remote="private" revision="cm-11.0" />
   <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung-kernel-msm7x30" remote="private" revision="cm-11.0" />
-  <project path="vendor/samsung/ariesve" name="AriesVE-DevCon-TEAM/android_vendor_samsung_ariesve" remote="private" revision="cm-11.0_ion" />
+  <project path="vendor/samsung/ariesve" name="DarkCyanogenMod/android_vendor_samsung_ariesve" remote="private" revision="cm-11.0" />
   <project name="arco/samsung-kernel-msm7x30" path="kernel/samsung/msm7x30-common" remote="private" revision="cm-11.0_ion"/>
   <project name="DarkCyanogenMod/android_device_samsung_ancora" path="device/samsung/ancora" remote="private" revision="cm-11.0_ion" />
   <project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="private" revision="cm-11.0_ion" />
