@@ -358,7 +358,7 @@
   <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="cm-11.0" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="cm-11.0" />
-  <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="private" revision="android-4.4" />
+  <project path="packages/apps/DSPManager" name="DarkCyanogenMod/android_packages_apps_DSPManager" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" remote="private" revision="pac-4.4" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
