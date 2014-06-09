@@ -494,8 +494,11 @@
   <!-- Devices repo -->
   <project path="device/samsung/ariesve" name="DarkCyanogenMod/device_ariesve" remote="private" revision="android-4.4" />
   <project path="device/samsung/ancora" name="DarkCyanogenMod/device_ancora" remote="private" revision="android-4.4" />
-  <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung-kernel-msm7x30" remote="private" revision="android-4.4" />
-  <project path="vendor/samsung" name="DarkCyanogenMod/android_vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
+  <project path="device/lge/hammerhead" name="DarkCyanogenMod/device_lge_hammerhead" remote="private" revision="android-4.4" />
+  <project path="kernel/lge/hammerhead" name="DarkCyanogenMod/lge_kernel_hammerhead" remote="private" revision="android-4.4" />
+  <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung_kernel_msm7x30" remote="private" revision="android-4.4" />
+  <project path="vendor/lge" name="DarkCyanogenMod/vendor_lge" remote="private" revision="android-4.4" />
+  <project path="vendor/samsung" name="DarkCyanogenMod/vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
 
   <!-- Linaro GCC 4.8 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="linaro" revision="master" />
