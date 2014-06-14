@@ -12,9 +12,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="linaro"
-           fetch="http://android.git.linaro.org/git-ro/" />
-
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
@@ -500,7 +497,4 @@
   <project path="vendor/lge" name="DarkCyanogenMod/vendor_lge" remote="private" revision="android-4.4" />
   <project path="vendor/samsung" name="DarkCyanogenMod/vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
 
-  <!-- Linaro GCC 4.8 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="linaro" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
 </manifest>
