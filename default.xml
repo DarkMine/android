@@ -497,5 +497,9 @@
   <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung_kernel_msm7x30" remote="private" revision="android-4.4" />
   <project path="vendor/lge" name="DarkCyanogenMod/vendor_lge" remote="private" revision="android-4.4" />
   <project path="vendor/samsung" name="DarkCyanogenMod/vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
+  
+  <!-- Linaro Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="DarkCyanogenMod/Linaro_GCC" remote="private" revision="4.8-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="DarkCyanogenMod/Linaro_GCC" remote="private" revision="4.8-eabi" />
 
 </manifest>
