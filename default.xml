@@ -17,14 +17,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="DarkCyanogenMod/android_build" remote="private" revision="android-4.4" groups="pdk" >
+  <project path="build" name="DarkMine/android_build" remote="private" revision="android-4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="DarkCyanogenMod/android" remote="private" revision="android-4.4" />
+  <project path="android" name="DarkMine/android" remote="private" revision="android-4.4" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="DarkCyanogenMod/android_art" remote="private" revision="android-4.4" />
+  <project path="art" name="DarkMine/android_art" remote="private" revision="android-4.4" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -35,7 +35,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
-  <project path="development" name="DarkCyanogenMod/android_development" remote="private" revision="android-4.4" />
+  <project path="development" name="DarkMine/android_development" remote="private" revision="android-4.4" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -284,20 +284,20 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="DarkCyanogenMod/android_frameworks_av" remote="private" revision="android-4.4" groups="pdk" />
-  <project path="frameworks/base" name="DarkCyanogenMod/android_frameworks_base" remote="private" revision="android-4.4_test" />
+  <project path="frameworks/av" name="DarkMine/android_frameworks_av" remote="private" revision="android-4.4" groups="pdk" />
+  <project path="frameworks/base" name="DarkMine/android_frameworks_base" remote="private" revision="android-4.4" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="DarkCyanogenMod/android_frameworks_native" remote="private" revision="android-4.4" groups="pdk" />
+  <project path="frameworks/native" name="DarkMine/android_frameworks_native" remote="private" revision="android-4.4" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="DarkCyanogenMod/android_frameworks_opt_datetimepicker" remote="private" revision="android-4.4" />
+  <project path="frameworks/opt/datetimepicker" name="DarkMine/android_frameworks_opt_datetimepicker" remote="private" revision="android-4.4" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -324,15 +324,15 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="DarkCyanogenMod/android_hardware_qcom_audio-caf" remote="private" revision="android-4.4" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="DarkMine/android_hardware_qcom_audio-caf" remote="private" revision="android-4.4" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="DarkCyanogenMod/android_hardware_qcom_display-caf" remote="private" revision="android-4.4" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="DarkMine/android_hardware_qcom_display-caf" remote="private" revision="android-4.4" groups="caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="DarkCyanogenMod/android_hardware_qcom_media-caf" remote="private" revision="android-4.4" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="DarkMine/android_hardware_qcom_media-caf" remote="private" revision="android-4.4" groups="caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
@@ -351,37 +351,37 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="DarkCyanogenMod/android_packages_apps_Browser" remote="private" revision="android-4.4" />
-  <project path="packages/apps/Calculator" name="DarkCyanogenMod/android_packages_apps_Calculator" remote="private" revision="android-4.4" />
-  <project path="packages/apps/Calendar" name="DarkCyanogenMod/android_packages_apps_Calendar" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Browser" name="DarkMine/android_packages_apps_Browser" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Calculator" name="DarkMine/android_packages_apps_Calculator" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Calendar" name="DarkMine/android_packages_apps_Calendar" remote="private" revision="android-4.4" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="DarkCyanogenMod/android_packages_apps_CMAccount" remote="private" revision="android-4.4" />
+  <project path="packages/apps/CMAccount" name="DarkMine/android_packages_apps_CMAccount" remote="private" revision="android-4.4" />
   <!--<project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />-->
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
   <!--<project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />-->
   <!--<project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />-->
-  <project path="packages/apps/Contacts" name="DarkCyanogenMod/android_packages_apps_Contacts" remote="private" revision="android-4.4" />
-  <project path="packages/apps/ContactsCommon" name="DarkCyanogenMod/android_packages_apps_ContactsCommon" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Contacts" name="DarkMine/android_packages_apps_Contacts" remote="private" revision="android-4.4" />
+  <project path="packages/apps/ContactsCommon" name="DarkMine/android_packages_apps_ContactsCommon" remote="private" revision="android-4.4" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="DarkCyanogenMod/android_packages_apps_Dialer" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Dialer" name="DarkMine/android_packages_apps_Dialer" remote="private" revision="android-4.4" />
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="private" revision="android-4.4" />
-  <project path="packages/apps/Email" name="DarkCyanogenMod/android_packages_apps_Email" remote="private" revision="android-4.4" />
-  <project path="packages/apps/Exchange" name="DarkCyanogenMod/android_packages_apps_Exchange" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Email" name="DarkMine/android_packages_apps_Email" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Exchange" name="DarkMine/android_packages_apps_Exchange" remote="private" revision="android-4.4" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="DarkCyanogenMod/android_packages_apps_InCallUI" remote="private" revision="android-4.4" />
+  <project path="packages/apps/InCallUI" name="DarkMine/android_packages_apps_InCallUI" remote="private" revision="android-4.4" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="private" revision="kitkat" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="DarkCyanogenMod/android_packages_apps_Mms" remote="private" revision="android-4.4" />
+  <project path="packages/apps/Mms" name="DarkMine/android_packages_apps_Mms" remote="private" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="DarkCyanogenMod/android_packages_apps_Settings" remote="private" revision="android-4.4_test" />
+  <project path="packages/apps/Settings" name="DarkMine/android_packages_apps_Settings" remote="private" revision="android-4.4" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="private" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
@@ -391,19 +391,19 @@
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/UnifiedEmail" name="DarkCyanogenMod/android_packages_apps_UnifiedEmail" remote="private" revision="android-4.4" />
-  <!--<project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />-->
-  <!--<project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />-->
+  <project path="packages/apps/UnifiedEmail" name="DarkMine/android_packages_apps_UnifiedEmail" remote="private" revision="android-4.4" />
+  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="DarkCyanogenMod/android_packages_inputmethods_LatinIME" remote="private" revision="android-4.4" />
+  <project path="packages/inputmethods/LatinIME" name="DarkMine/android_packages_inputmethods_LatinIME" remote="private" revision="android-4.4" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <!--<project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />-->
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="DarkCyanogenMod/android_packages_providers_ContactsProvider" remote="private" revision="android-4.4" />
-  <project path="packages/providers/DownloadProvider" name="DarkCyanogenMod/android_packages_providers_DownloadProvider" remote="private" revision="android-4.4" />
-  <project path="packages/providers/MediaProvider" name="DarkCyanogenMod/android_packages_providers_MediaProvider" remote="private" revision="android-4.4" />
+  <project path="packages/providers/ContactsProvider" name="DarkMine/android_packages_providers_ContactsProvider" remote="private" revision="android-4.4" />
+  <project path="packages/providers/DownloadProvider" name="DarkMine/android_packages_providers_DownloadProvider" remote="private" revision="android-4.4" />
+  <project path="packages/providers/MediaProvider" name="DarkMine/android_packages_providers_MediaProvider" remote="private" revision="android-4.4" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
@@ -411,7 +411,7 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="DarkCyanogenMod/android_packages_services_Telephony" remote="private" revision="android-4.4" />
+  <project path="packages/services/Telephony" name="DarkMine/android_packages_services_Telephony" remote="private" revision="android-4.4" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -471,7 +471,7 @@
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/media" name="DarkCyanogenMod/android_system_media" remote="private" revision="android-4.4" groups="pdk" />
+  <project path="system/media" name="DarkMine/android_system_media" remote="private" revision="android-4.4" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
@@ -486,16 +486,16 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
-  <project path="vendor/cm" name="DarkCyanogenMod/android_vendor_cm" remote="private" revision="android-4.4" />
+  <project path="vendor/cm" name="DarkMine/android_vendor_cm" remote="private" revision="android-4.4" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
   <!-- Devices repo -->
-  <project path="device/samsung/ariesve" name="DarkCyanogenMod/device_ariesve" remote="private" revision="android-4.4" />
-  <project path="device/samsung/ancora" name="DarkCyanogenMod/device_ancora" remote="private" revision="android-4.4" />
-  <project path="device/lge/hammerhead" name="DarkCyanogenMod/device_lge_hammerhead" remote="private" revision="android-4.4" />
-  <project path="kernel/lge/hammerhead" name="DarkCyanogenMod/lge_kernel_hammerhead" remote="private" revision="android-4.4" />
-  <project path="kernel/samsung/msm7x30" name="DarkCyanogenMod/samsung_kernel_msm7x30" remote="private" revision="android-4.4" />
-  <project path="vendor/lge" name="DarkCyanogenMod/vendor_lge" remote="private" revision="android-4.4" />
-  <project path="vendor/samsung" name="DarkCyanogenMod/vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
+  <project path="device/samsung/ancora" name="DarkMine/android_device_samsung_ancora" remote="private" revision="android-4.4" />
+  <project path="kernel/samsung/msm7x30" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="DarkMine/vendor_samsung_msm7x30" remote="private" revision="android-4.4" />
+
+  <!-- Linaro Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="refs/heads/idea133-weekly-release" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="refs/heads/idea133-weekly-release" />
 
 </manifest>
